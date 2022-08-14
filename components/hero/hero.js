@@ -9,7 +9,7 @@ const Hero = ({ profilePicture }) => {
     return (
         <div className={`w-100`}>
             <Image src={'/coding.jpg'} width={1920} height={1080} layout="responsive" />
-            <div className={`${styles.textContainer} flex flex-row w-100`}>
+            <div className={`${styles.textContainer} justify-center flex flex-row w-100`}>
                 <div className={`w-fit`}>
                     <RoughNotationGroup show={true}>
                         <RainbowHighlight color={colors[0]}>

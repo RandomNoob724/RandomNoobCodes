@@ -12,9 +12,16 @@
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .profileImage {
-        width: 8rem;
-        height: 8rem;
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .profileImage {
+        width: 10rem;
+        height: 10rem;
     }
 }
